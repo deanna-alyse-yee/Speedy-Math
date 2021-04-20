@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7AB4301262154140076A3F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4300262154140076A3F5 /* AppDelegate.swift */; };
+		F7AB4303262154140076A3F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4302262154140076A3F5 /* SceneDelegate.swift */; };
+		F7AB4305262154140076A3F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4304262154140076A3F5 /* ViewController.swift */; };
+		F7AB4308262154140076A3F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AB4306262154140076A3F5 /* Main.storyboard */; };
+		F7AB430A262154150076A3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AB4309262154150076A3F5 /* Assets.xcassets */; };
+		F7AB430D262154150076A3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AB430B262154150076A3F5 /* LaunchScreen.storyboard */; };
+		F7AB4318262154150076A3F5 /* Speedy_MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4317262154150076A3F5 /* Speedy_MathTests.swift */; };
+		F7AB4323262154150076A3F5 /* Speedy_MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4322262154150076A3F5 /* Speedy_MathUITests.swift */; };
+		F7AB4334262154810076A3F5 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4333262154810076A3F5 /* Math.swift */; };
+		F7B9BE5D2623B4A0003D1A68 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9BE5C2623B4A0003D1A68 /* Symbol.swift */; };
+		F7B9BE612623C047003D1A68 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB4333262154810076A3F5 /* Math.swift */; };
+		F7B9BE652623C055003D1A68 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9BE5C2623B4A0003D1A68 /* Symbol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7AB4314262154150076A3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7AB42F5262154140076A3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AB42FC262154140076A3F5;
+			remoteInfo = "Speedy Math";
+		};
+		F7AB431F262154150076A3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7AB42F5262154140076A3F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AB42FC262154140076A3F5;
+			remoteInfo = "Speedy Math";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7AB42FD262154140076A3F5 /* Speedy Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speedy Math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AB4300262154140076A3F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7AB4302262154140076A3F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F7AB4304262154140076A3F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7AB4307262154140076A3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7AB4309262154150076A3F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7AB430C262154150076A3F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7AB430E262154150076A3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AB4313262154150076A3F5 /* Speedy MathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speedy MathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AB4317262154150076A3F5 /* Speedy_MathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speedy_MathTests.swift; sourceTree = "<group>"; };
+		F7AB4319262154150076A3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AB431E262154150076A3F5 /* Speedy MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speedy MathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AB4322262154150076A3F5 /* Speedy_MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speedy_MathUITests.swift; sourceTree = "<group>"; };
+		F7AB4324262154150076A3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AB4333262154810076A3F5 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		F7B9BE5C2623B4A0003D1A68 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7AB42FA262154140076A3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB4310262154150076A3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB431B262154150076A3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7AB42F4262154140076A3F5 = {
+			isa = PBXGroup;
+			children = (
+				F7AB42FF262154140076A3F5 /* Speedy Math */,
+				F7AB4316262154150076A3F5 /* Speedy MathTests */,
+				F7AB4321262154150076A3F5 /* Speedy MathUITests */,
+				F7AB42FE262154140076A3F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7AB42FE262154140076A3F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB42FD262154140076A3F5 /* Speedy Math.app */,
+				F7AB4313262154150076A3F5 /* Speedy MathTests.xctest */,
+				F7AB431E262154150076A3F5 /* Speedy MathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7AB42FF262154140076A3F5 /* Speedy Math */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB433A262154A50076A3F5 /* Model */,
+				F7AB4339262154950076A3F5 /* Controller */,
+				F7AB43382621548D0076A3F5 /* View */,
+				F7AB4300262154140076A3F5 /* AppDelegate.swift */,
+				F7AB4302262154140076A3F5 /* SceneDelegate.swift */,
+				F7AB4306262154140076A3F5 /* Main.storyboard */,
+				F7AB4309262154150076A3F5 /* Assets.xcassets */,
+				F7AB430B262154150076A3F5 /* LaunchScreen.storyboard */,
+				F7AB430E262154150076A3F5 /* Info.plist */,
+			);
+			path = "Speedy Math";
+			sourceTree = "<group>";
+		};
+		F7AB4316262154150076A3F5 /* Speedy MathTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB4317262154150076A3F5 /* Speedy_MathTests.swift */,
+				F7AB4319262154150076A3F5 /* Info.plist */,
+			);
+			path = "Speedy MathTests";
+			sourceTree = "<group>";
+		};
+		F7AB4321262154150076A3F5 /* Speedy MathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB4322262154150076A3F5 /* Speedy_MathUITests.swift */,
+				F7AB4324262154150076A3F5 /* Info.plist */,
+			);
+			path = "Speedy MathUITests";
+			sourceTree = "<group>";
+		};
+		F7AB43382621548D0076A3F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7AB4339262154950076A3F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB4304262154140076A3F5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7AB433A262154A50076A3F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB4333262154810076A3F5 /* Math.swift */,
+				F7B9BE5C2623B4A0003D1A68 /* Symbol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7AB42FC262154140076A3F5 /* Speedy Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AB4327262154150076A3F5 /* Build configuration list for PBXNativeTarget "Speedy Math" */;
+			buildPhases = (
+				F7AB42F9262154140076A3F5 /* Sources */,
+				F7AB42FA262154140076A3F5 /* Frameworks */,
+				F7AB42FB262154140076A3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Speedy Math";
+			productName = "Speedy Math";
+			productReference = F7AB42FD262154140076A3F5 /* Speedy Math.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7AB4312262154150076A3F5 /* Speedy MathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AB432A262154150076A3F5 /* Build configuration list for PBXNativeTarget "Speedy MathTests" */;
+			buildPhases = (
+				F7AB430F262154150076A3F5 /* Sources */,
+				F7AB4310262154150076A3F5 /* Frameworks */,
+				F7AB4311262154150076A3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7AB4315262154150076A3F5 /* PBXTargetDependency */,
+			);
+			name = "Speedy MathTests";
+			productName = "Speedy MathTests";
+			productReference = F7AB4313262154150076A3F5 /* Speedy MathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7AB431D262154150076A3F5 /* Speedy MathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AB432D262154150076A3F5 /* Build configuration list for PBXNativeTarget "Speedy MathUITests" */;
+			buildPhases = (
+				F7AB431A262154150076A3F5 /* Sources */,
+				F7AB431B262154150076A3F5 /* Frameworks */,
+				F7AB431C262154150076A3F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7AB4320262154150076A3F5 /* PBXTargetDependency */,
+			);
+			name = "Speedy MathUITests";
+			productName = "Speedy MathUITests";
+			productReference = F7AB431E262154150076A3F5 /* Speedy MathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7AB42F5262154140076A3F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F7AB42FC262154140076A3F5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F7AB4312262154150076A3F5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F7AB42FC262154140076A3F5;
+					};
+					F7AB431D262154150076A3F5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F7AB42FC262154140076A3F5;
+					};
+				};
+			};
+			buildConfigurationList = F7AB42F8262154140076A3F5 /* Build configuration list for PBXProject "Speedy Math" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7AB42F4262154140076A3F5;
+			productRefGroup = F7AB42FE262154140076A3F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7AB42FC262154140076A3F5 /* Speedy Math */,
+				F7AB4312262154150076A3F5 /* Speedy MathTests */,
+				F7AB431D262154150076A3F5 /* Speedy MathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7AB42FB262154140076A3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AB430D262154150076A3F5 /* LaunchScreen.storyboard in Resources */,
+				F7AB430A262154150076A3F5 /* Assets.xcassets in Resources */,
+				F7AB4308262154140076A3F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB4311262154150076A3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB431C262154150076A3F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7AB42F9262154140076A3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AB4305262154140076A3F5 /* ViewController.swift in Sources */,
+				F7B9BE5D2623B4A0003D1A68 /* Symbol.swift in Sources */,
+				F7AB4301262154140076A3F5 /* AppDelegate.swift in Sources */,
+				F7AB4303262154140076A3F5 /* SceneDelegate.swift in Sources */,
+				F7AB4334262154810076A3F5 /* Math.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB430F262154150076A3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AB4318262154150076A3F5 /* Speedy_MathTests.swift in Sources */,
+				F7B9BE612623C047003D1A68 /* Math.swift in Sources */,
+				F7B9BE652623C055003D1A68 /* Symbol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB431A262154150076A3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AB4323262154150076A3F5 /* Speedy_MathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7AB4315262154150076A3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7AB42FC262154140076A3F5 /* Speedy Math */;
+			targetProxy = F7AB4314262154150076A3F5 /* PBXContainerItemProxy */;
+		};
+		F7AB4320262154150076A3F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7AB42FC262154140076A3F5 /* Speedy Math */;
+			targetProxy = F7AB431F262154150076A3F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7AB4306262154140076A3F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AB4307262154140076A3F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7AB430B262154150076A3F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AB430C262154150076A3F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7AB4325262154150076A3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7AB4326262154150076A3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7AB4328262154150076A3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				INFOPLIST_FILE = "Speedy Math/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yee.deanna.Speedy-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7AB4329262154150076A3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				INFOPLIST_FILE = "Speedy Math/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yee.deanna.Speedy-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7AB432B262154150076A3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				INFOPLIST_FILE = "Speedy MathTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yee.deanna.Speedy-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speedy Math.app/Speedy Math";
+			};
+			name = Debug;
+		};
+		F7AB432C262154150076A3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				INFOPLIST_FILE = "Speedy MathTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yee.deanna.Speedy-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speedy Math.app/Speedy Math";
+			};
+			name = Release;
+		};
+		F7AB432E262154150076A3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				INFOPLIST_FILE = "Speedy MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yee.deanna.Speedy-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Speedy Math";
+			};
+			name = Debug;
+		};
+		F7AB432F262154150076A3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				INFOPLIST_FILE = "Speedy MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yee.deanna.Speedy-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Speedy Math";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7AB42F8262154140076A3F5 /* Build configuration list for PBXProject "Speedy Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AB4325262154150076A3F5 /* Debug */,
+				F7AB4326262154150076A3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AB4327262154150076A3F5 /* Build configuration list for PBXNativeTarget "Speedy Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AB4328262154150076A3F5 /* Debug */,
+				F7AB4329262154150076A3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AB432A262154150076A3F5 /* Build configuration list for PBXNativeTarget "Speedy MathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AB432B262154150076A3F5 /* Debug */,
+				F7AB432C262154150076A3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AB432D262154150076A3F5 /* Build configuration list for PBXNativeTarget "Speedy MathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AB432E262154150076A3F5 /* Debug */,
+				F7AB432F262154150076A3F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7AB42F5262154140076A3F5 /* Project object */;
+}
